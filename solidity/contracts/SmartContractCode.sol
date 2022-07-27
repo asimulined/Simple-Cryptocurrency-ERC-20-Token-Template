@@ -116,11 +116,11 @@ contract Robot is StandardToken {
 
     function Robot(
         ) {
-        balances[msg.sender] = 100000000000000000000000000;               // Give the creator all initial tokens (100000 for example)
-        totalSupply = 100000000000000000000000000;                        // Update total supply (100000 for example)
-        name = "Robot";                                   // Set the name for display purposes
-        decimals = 18;                            // Amount of decimals for display purposes
-        symbol = "RBT";                               // Set the symbol for display purposes
+        balances[msg.sender] = 100000000000000;               // Give the creator all initial tokens (100000 for example)
+        totalSupply = 10000000000000000000000000000;                        // Update total supply (100000 for example)
+        name = "CoinCoin";                                   // Set the name for display purposes
+        decimals = 20;                            // Amount of decimals for display purposes
+        symbol = "CCO";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
